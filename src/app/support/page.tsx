@@ -106,7 +106,7 @@ export default function SupportChat() {
             </h1>
           </div>
           <p className="text-slate-600 leading-relaxed max-w-2xl mx-auto">
-            You're not alone. Our empathetic AI is here to listen, support, and guide you 24/7.
+            You&apos;re not alone. Our empathetic AI is here to listen, support, and guide you 24/7.
           </p>
         </motion.div>
 
@@ -221,7 +221,7 @@ export default function SupportChat() {
                     onClick={() => setInputValue("I&apos;m feeling anxious today")}
                     className="text-xs border-slate-300 hover:bg-slate-50"
                   >
-                    I'm feeling anxious
+                    I&apos;m feeling anxious
                   </Button>
                   <Button
                     variant="outline"
@@ -258,7 +258,7 @@ export default function SupportChat() {
               <h3 className="font-medium text-slate-700">Crisis Support</h3>
             </div>
             <p className="text-sm text-slate-600 leading-relaxed">
-              If you're in crisis, please reach out to a crisis hotline immediately. 
+              If you&apos;re in crisis, please reach out to a crisis hotline immediately
               In the US, call 988 for the Suicide & Crisis Lifeline.
             </p>
           </div>
@@ -269,7 +269,7 @@ export default function SupportChat() {
               <h3 className="font-medium text-slate-700">Remember</h3>
             </div>
             <p className="text-sm text-slate-600 leading-relaxed">
-              You're brave for reaching out. Every step toward wellness matters, 
+              You&apos;re brave for reaching out. Every step toward wellness matters, 
               no matter how small it may seem.
             </p>
           </div>
