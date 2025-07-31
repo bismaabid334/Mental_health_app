@@ -50,7 +50,7 @@ export default function Mood() {
 
         <Card className="mt-12 border-0 shadow-lg bg-white/70 backdrop-blur-sm">
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl font-light text-slate-700">Today's Check-in</CardTitle>
+            <CardTitle className="text-2xl font-light text-slate-700">Today&apos;s Check-in</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
@@ -101,4 +101,3 @@ export default function Mood() {
       </main>
     </div>
   );
-}
