@@ -113,7 +113,7 @@ export default function HomePage() {
             </h2>
             <p className="text-slate-600 max-w-lg mx-auto leading-relaxed">
               Your mental health matters. Start with small steps, be kind to yourself, 
-              and remember—progress isn't always linear.
+              and remember—progress isn&apos;t it always linear.
             </p>
           </div>
         </section>
