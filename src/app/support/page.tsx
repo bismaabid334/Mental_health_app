@@ -17,7 +17,7 @@ export default function SupportChat() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: 'Hello! I\'m here to support you on your wellness journey. How can I help you today? 💙',
+      content: 'Hello! I&apos;m here to support you on your wellness journery.How can i help you today?',
       timestamp: new Date()
     }
   ])
@@ -75,7 +75,7 @@ export default function SupportChat() {
       
       const errorMessage: Message = {
         role: 'assistant',
-        content: 'I apologize, but I\'m having trouble connecting right now. Please try again in a moment, and remember - you\'re not alone in this. 🤗',
+        content: 'I apologize, but I&apos;m having trouble connecting right now. Please try again in a moment, and remember - you&apos;re not alone in this🤗',
         timestamp: new Date()
       }
       
@@ -193,7 +193,7 @@ export default function SupportChat() {
               <div className="border-t border-slate-200/50 p-6">
                 <form onSubmit={handleSubmit} className="flex gap-3">
                   <Input 
-                    placeholder="Share what's on your mind..." 
+                    placeholder="Share what&apos;s on your mind..."
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
                     disabled={isLoading}
@@ -218,7 +218,7 @@ export default function SupportChat() {
                   <Button
                     variant="outline"
                     size="sm"
-                    onClick={() => setInputValue("I'm feeling anxious today")}
+                    onClick={() => setInputValue("I&apos;m feeling anxious today")}
                     className="text-xs border-slate-300 hover:bg-slate-50"
                   >
                     I'm feeling anxious
